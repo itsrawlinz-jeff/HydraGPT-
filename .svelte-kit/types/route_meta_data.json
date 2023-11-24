@@ -1,0 +1,62 @@
+{
+	"/": [
+		"src/routes/+layout.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/admin/export": [
+		"src/routes/admin/export/+server.ts"
+	],
+	"/conversations": [
+		"src/routes/conversations/+page.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/conversation": [
+		"src/routes/conversation/+server.ts"
+	],
+	"/conversation/[id]": [
+		"src/routes/conversation/[id]/+page.server.ts",
+		"src/routes/+layout.server.ts",
+		"src/routes/conversation/[id]/+server.ts"
+	],
+	"/conversation/[id]/message/[messageId]/prompt": [
+		"src/routes/conversation/[id]/message/[messageId]/prompt/+server.ts"
+	],
+	"/conversation/[id]/message/[messageId]/vote": [
+		"src/routes/conversation/[id]/message/[messageId]/vote/+server.ts"
+	],
+	"/conversation/[id]/output/[sha256]": [
+		"src/routes/conversation/[id]/output/[sha256]/+server.ts"
+	],
+	"/conversation/[id]/share": [
+		"src/routes/conversation/[id]/share/+server.ts"
+	],
+	"/conversation/[id]/stop-generating": [
+		"src/routes/conversation/[id]/stop-generating/+server.ts"
+	],
+	"/login": [
+		"src/routes/login/+page.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/login/callback": [
+		"src/routes/login/callback/+page.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/logout": [
+		"src/routes/logout/+page.server.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/privacy": [
+		"src/routes/+layout.server.ts"
+	],
+	"/r/[id]": [
+		"src/routes/r/[id]/+page.ts",
+		"src/routes/+layout.server.ts"
+	],
+	"/search/[id]": [
+		"src/routes/search/[id]/+server.ts"
+	],
+	"/settings": [
+		"src/routes/settings/+page.server.ts",
+		"src/routes/+layout.server.ts"
+	]
+}

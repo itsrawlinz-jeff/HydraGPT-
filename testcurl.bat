@@ -1,0 +1,1 @@
+curl -v https://ufg6godx0xq7px-8080.proxy.runpod.net/generate -X POST -d "{\"inputs\":\"What is Deep Learning?\", \"parameters\":{\"max_new_tokens\":20}}" -H "Content-Type: application/json"

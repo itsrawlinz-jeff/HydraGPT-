@@ -1,0 +1,414 @@
+{
+  ".svelte-kit/generated/server/internal.js": {
+    "file": "internal.js",
+    "imports": [
+      "_internal.js",
+      "_paths.js"
+    ],
+    "isEntry": true,
+    "src": ".svelte-kit/generated/server/internal.js"
+  },
+  "ChatWindow.css": {
+    "file": "_app/immutable/assets/ChatWindow.9da0802e.css",
+    "src": "ChatWindow.css"
+  },
+  "_ChatWindow.js": {
+    "css": [
+      "_app/immutable/assets/ChatWindow.9da0802e.css"
+    ],
+    "file": "chunks/ChatWindow.js",
+    "imports": [
+      "_ssr.js",
+      "_Logo.js",
+      "_public.js",
+      "_stores.js",
+      "_index2.js",
+      "_paths.js"
+    ]
+  },
+  "_Logo.js": {
+    "file": "chunks/Logo.js",
+    "imports": [
+      "_ssr.js",
+      "_stores.js"
+    ]
+  },
+  "_Settings.js": {
+    "file": "chunks/Settings.js",
+    "imports": [
+      "_models.js"
+    ]
+  },
+  "_UrlDependency.js": {
+    "file": "chunks/UrlDependency.js"
+  },
+  "_auth.js": {
+    "file": "chunks/auth.js",
+    "imports": [
+      "_private.js",
+      "_sha256.js",
+      "_environment.js"
+    ]
+  },
+  "_database.js": {
+    "file": "chunks/database.js",
+    "imports": [
+      "_private.js"
+    ]
+  },
+  "_downloadFile.js": {
+    "file": "chunks/downloadFile.js",
+    "imports": [
+      "_index.js",
+      "_database.js"
+    ]
+  },
+  "_environment.js": {
+    "file": "chunks/environment.js",
+    "imports": [
+      "_prod-ssr.js"
+    ]
+  },
+  "_errors.js": {
+    "file": "chunks/errors.js",
+    "imports": [
+      "_index2.js"
+    ]
+  },
+  "_hashConv.js": {
+    "file": "chunks/hashConv.js",
+    "imports": [
+      "_sha256.js"
+    ]
+  },
+  "_index.js": {
+    "file": "chunks/index.js"
+  },
+  "_index2.js": {
+    "file": "chunks/index2.js",
+    "imports": [
+      "_ssr.js"
+    ]
+  },
+  "_internal.js": {
+    "dynamicImports": [
+      "src/hooks.server.ts"
+    ],
+    "file": "chunks/internal.js",
+    "imports": [
+      "_ssr.js",
+      "_paths.js"
+    ]
+  },
+  "_models.js": {
+    "file": "chunks/models.js",
+    "imports": [
+      "_private.js",
+      "_downloadFile.js"
+    ]
+  },
+  "_paths.js": {
+    "file": "chunks/paths.js"
+  },
+  "_private.js": {
+    "file": "chunks/private.js"
+  },
+  "_prod-ssr.js": {
+    "file": "chunks/prod-ssr.js"
+  },
+  "_public.js": {
+    "file": "chunks/public.js"
+  },
+  "_sha256.js": {
+    "file": "chunks/sha256.js"
+  },
+  "_ssr.js": {
+    "file": "chunks/ssr.js"
+  },
+  "_stores.js": {
+    "file": "chunks/stores.js",
+    "imports": [
+      "_ssr.js"
+    ]
+  },
+  "_titleUpdate.js": {
+    "file": "chunks/titleUpdate.js",
+    "imports": [
+      "_index2.js"
+    ]
+  },
+  "node_modules/@sveltejs/kit/src/runtime/server/index.js": {
+    "file": "index.js",
+    "imports": [
+      "_prod-ssr.js",
+      "_paths.js",
+      "_index.js",
+      "_index2.js",
+      "_internal.js"
+    ],
+    "isEntry": true,
+    "src": "node_modules/@sveltejs/kit/src/runtime/server/index.js"
+  },
+  "src/hooks.server.ts": {
+    "file": "chunks/hooks.server.js",
+    "imports": [
+      "_private.js",
+      "_public.js",
+      "_database.js",
+      "_paths.js",
+      "_auth.js",
+      "_errors.js"
+    ],
+    "isDynamicEntry": true,
+    "src": "src/hooks.server.ts"
+  },
+  "src/routes/+error.svelte": {
+    "file": "entries/pages/_error.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_stores.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/+error.svelte"
+  },
+  "src/routes/+layout.css": {
+    "file": "_app/immutable/assets/_layout.2eb66f7a.css",
+    "src": "src/routes/+layout.css"
+  },
+  "src/routes/+layout.server.ts": {
+    "file": "entries/pages/_layout.server.ts.js",
+    "imports": [
+      "_index.js",
+      "_database.js",
+      "_UrlDependency.js",
+      "_models.js",
+      "_auth.js",
+      "_Settings.js",
+      "_private.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/+layout.server.ts"
+  },
+  "src/routes/+layout.svelte": {
+    "css": [
+      "_app/immutable/assets/_layout.2eb66f7a.css"
+    ],
+    "file": "entries/pages/_layout.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_paths.js",
+      "_stores.js",
+      "_public.js",
+      "_errors.js",
+      "_environment.js",
+      "_Logo.js",
+      "_titleUpdate.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/+layout.svelte"
+  },
+  "src/routes/+page.svelte": {
+    "file": "entries/pages/_page.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_public.js",
+      "_ChatWindow.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/+page.svelte"
+  },
+  "src/routes/admin/export/+server.ts": {
+    "file": "entries/endpoints/admin/export/_server.ts.js",
+    "imports": [
+      "_database.js",
+      "_index.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/admin/export/+server.ts"
+  },
+  "src/routes/conversation/+server.ts": {
+    "file": "entries/endpoints/conversation/_server.ts.js",
+    "imports": [
+      "_database.js",
+      "_index.js",
+      "_paths.js",
+      "_models.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/conversation/+server.ts"
+  },
+  "src/routes/conversation/[id]/+page.server.ts": {
+    "file": "entries/pages/conversation/_id_/_page.server.ts.js",
+    "imports": [
+      "_database.js",
+      "_index.js",
+      "_auth.js",
+      "_UrlDependency.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/conversation/[id]/+page.server.ts"
+  },
+  "src/routes/conversation/[id]/+page.svelte": {
+    "file": "entries/pages/conversation/_id_/_page.svelte.js",
+    "imports": [
+      "_ssr.js",
+      "_ChatWindow.js",
+      "_index2.js",
+      "_stores.js",
+      "_errors.js",
+      "_titleUpdate.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/conversation/[id]/+page.svelte"
+  },
+  "src/routes/conversation/[id]/+server.ts": {
+    "file": "entries/endpoints/conversation/_id_/_server.ts.js",
+    "imports": [
+      "_private.js",
+      "_auth.js",
+      "_database.js",
+      "_models.js",
+      "_index.js",
+      "_sha256.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/conversation/[id]/+server.ts"
+  },
+  "src/routes/conversation/[id]/message/[messageId]/prompt/+server.ts": {
+    "file": "entries/endpoints/conversation/_id_/message/_messageId_/prompt/_server.ts.js",
+    "imports": [
+      "_models.js",
+      "_auth.js",
+      "_database.js",
+      "_index.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/conversation/[id]/message/[messageId]/prompt/+server.ts"
+  },
+  "src/routes/conversation/[id]/message/[messageId]/vote/+server.ts": {
+    "file": "entries/endpoints/conversation/_id_/message/_messageId_/vote/_server.ts.js",
+    "imports": [
+      "_auth.js",
+      "_database.js",
+      "_index.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/conversation/[id]/message/[messageId]/vote/+server.ts"
+  },
+  "src/routes/conversation/[id]/output/[sha256]/+server.ts": {
+    "file": "entries/endpoints/conversation/_id_/output/_sha256_/_server.ts.js",
+    "imports": [
+      "_auth.js",
+      "_database.js",
+      "_index.js",
+      "_downloadFile.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/conversation/[id]/output/[sha256]/+server.ts"
+  },
+  "src/routes/conversation/[id]/share/+server.ts": {
+    "file": "entries/endpoints/conversation/_id_/share/_server.ts.js",
+    "imports": [
+      "_auth.js",
+      "_database.js",
+      "_paths.js",
+      "_hashConv.js",
+      "_index.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/conversation/[id]/share/+server.ts"
+  },
+  "src/routes/conversation/[id]/stop-generating/+server.ts": {
+    "file": "entries/endpoints/conversation/_id_/stop-generating/_server.ts.js",
+    "imports": [
+      "_auth.js",
+      "_database.js",
+      "_index.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/conversation/[id]/stop-generating/+server.ts"
+  },
+  "src/routes/conversations/+page.server.ts": {
+    "file": "entries/pages/conversations/_page.server.ts.js",
+    "imports": [
+      "_paths.js",
+      "_auth.js",
+      "_database.js",
+      "_index.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/conversations/+page.server.ts"
+  },
+  "src/routes/login/+page.server.ts": {
+    "file": "entries/pages/login/_page.server.ts.js",
+    "imports": [
+      "_index.js",
+      "_auth.js",
+      "_paths.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/login/+page.server.ts"
+  },
+  "src/routes/login/callback/+page.server.ts": {
+    "file": "entries/pages/login/callback/_page.server.ts.js",
+    "imports": [
+      "_index.js",
+      "_auth.js",
+      "_paths.js",
+      "_database.js",
+      "_Settings.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/login/callback/+page.server.ts"
+  },
+  "src/routes/logout/+page.server.ts": {
+    "file": "entries/pages/logout/_page.server.ts.js",
+    "imports": [
+      "_environment.js",
+      "_paths.js",
+      "_private.js",
+      "_index.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/logout/+page.server.ts"
+  },
+  "src/routes/privacy/+page.svelte": {
+    "file": "entries/pages/privacy/_page.svelte.js",
+    "imports": [
+      "_ssr.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/privacy/+page.svelte"
+  },
+  "src/routes/r/[id]/+page.ts": {
+    "file": "entries/pages/r/_id_/_page.ts.js",
+    "imports": [
+      "_index.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/r/[id]/+page.ts"
+  },
+  "src/routes/search/[id]/+server.ts": {
+    "file": "entries/endpoints/search/_id_/_server.ts.js",
+    "imports": [
+      "_database.js",
+      "_hashConv.js",
+      "_index.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/search/[id]/+server.ts"
+  },
+  "src/routes/settings/+page.server.ts": {
+    "file": "entries/pages/settings/_page.server.ts.js",
+    "imports": [
+      "_paths.js",
+      "_database.js",
+      "_index.js",
+      "_models.js",
+      "_auth.js",
+      "_Settings.js"
+    ],
+    "isEntry": true,
+    "src": "src/routes/settings/+page.server.ts"
+  }
+}
